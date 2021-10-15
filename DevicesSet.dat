@@ -1,0 +1,11 @@
+[Device2]
+tags=device2
+udid=R58MB0T56ZA
+appium_port=4723
+system_port=8202
+
+[Device1]
+tags=device1
+udid=localhost:5555
+appium_port=4724
+system_port=8201
