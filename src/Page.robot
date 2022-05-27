@@ -39,17 +39,18 @@ Tap Drag and Drop
     Wait Until Element Is Visible   ${btnDragandDrop} 
     Click Element                   ${btnDragandDrop}
     Sleep   5s
-
 Tap Custom
     Wait Until Element Is Visible   ${btnCustom} 
     Click Element                   ${btnCustom}
     Sleep   5s
 
-Assert DragandDrop result is "${expected_result}"
+Assert DragandDrop result is 
+    [Arguments]  ${expected_result}
     Wait Until Element Is Visible   ${ActualResultDragandDrop}
     Element Text Should Be          ${ActualResultDragandDrop}      ${expected_result}  
 
-Assert Custom result is "${expected_result}"
+Assert Custom result is 
+    [Arguments]  ${expected_result}
     Wait Until Element Is Visible   ${ActualResultCustom}
     Element Text Should Be          ${ActualResultCustom}      ${expected_result} 
     
