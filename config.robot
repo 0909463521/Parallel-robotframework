@@ -1,10 +1,10 @@
 *** Settings ***
-Library         AppiumLibrary   timeout=30   run_on_failure=No Operation
 Library         OperatingSystem
 Library         String
 Library         Collections
 Library         Process
 Library         pabot.PabotLib
+Library         ${EXECDIR}/src/customlibrary/custom.py
 
 *** Variable ***  
 ${app}=      ${EXECDIR}/ApiDemos-debug.apk

@@ -6,8 +6,8 @@ ${point_drag_start}=   /hierarchy/android.widget.FrameLayout/android.view.ViewGr
 ${point_drag_des}=     /hierarchy/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.RelativeLayout/android.view.View[3]
 
 ${btnView}             accessibility_id=Views
-${btnCustom}           accessibility_id=Custom
-${btnDragandDrop}      accessibility_id=Drag and Drop
+${btnCustom}           Custom
+${btnDragandDrop}      Drag and Drop
 
 ${ActualResultDragandDrop}      android=UiSelector().text("Views/Drag and Drop")
 ${ActualResultCustom}           id=android:id/title
