@@ -53,4 +53,4 @@ Assert Custom result is
     [Arguments]  ${expected_result}
     Wait Until Element Is Visible   ${ActualResultCustom}
     Element Text Should Be          ${ActualResultCustom}      ${expected_result} 
-    
+ 

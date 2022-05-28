@@ -1,6 +1,5 @@
-datasources:16234d82b4b8a1377b7e0d652536d1bfb9497671
+datasources:dbbeba9e209f8b555f3b0231fc8b751a84152094
 commandlineoptions:65f95c924ba97541f47949701c4e3c51192a5b43
 suitesfrom:no-suites-from-option
-file:3d729e7e336eb4dbf6c9440aa4bf6641239163ff
+file:36bcbd9ac575ce5d1c3daf3fe6c72393030d5fc8
 --test TestSuite.Successful Drag and Drop View
---test TestSuite.Successful Custom View

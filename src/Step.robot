@@ -18,3 +18,8 @@ User see correct title of Page Drag and Drop
 
 User see correct title of Page Custom
    Assert Custom result is  Views/Custom
+
+Check App
+    # return value from function checkAppState
+    ${result}=  CheckAppState  ${app_package} 
+    Log to console   ${result}
